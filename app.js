@@ -6,10 +6,15 @@ const sideBar = document.querySelector('.sidebar')
 
 toggleBtn.addEventListener('click' , () => {
 
-    
+    sideBar.classList.toggle('show-sidebar')
+
 })
 
+closeBtn.addEventListener('click' , () => {
 
+    sideBar.classList.remove('show-sidebar')
+
+})
 
 
 
